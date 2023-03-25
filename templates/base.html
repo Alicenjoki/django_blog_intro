@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <title>Django blog page</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">Django Blog</a></h1>
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    
+    </body>
+</html>
