@@ -5,7 +5,14 @@
 
         <h2> {{ object.title }} </h2>
         <p> {{ object.body }} </p>
-        <!--  same as the above <h2> {{ post.title }} </h2>
-        <p> {{ post.body }} </p> -->
+        
+        
     </div>
+    <p>
+        <a href="{% url 'post_update' post.pk %}"> +Edit Blog Post</a>
+    </p>
+
+    <p>
+        <a href="{% url 'post_delete' post.pk %}">- Delete Post</a>
+    </p>
 {% endblock content %}

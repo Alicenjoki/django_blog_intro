@@ -1,16 +1,20 @@
 body{
     background-color: rgb(166, 201, 201);
 }
-header{
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+ header{ 
+    /* text-align: center; */
+    margin-bottom: 1rem; 
+    margin-top: 1rem;
     border-bottom: 1px solid rgb(59, 57, 57);
     
-}
+} 
 header h1 a{
     color: rgb(20, 34, 34);
     text-decoration: none;
+}
+header h1 a:hover{
+    color: rgb(169, 154, 135);
+    font-size: 20px;
 }
 .post_entry{
     margin: auto;
@@ -30,3 +34,49 @@ h2 a{
     cursor: pointer;
     
 }
+.nav-left{
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.inner a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.inner a:hover{
+    color: rgb(169, 154, 135);
+    font-size: 20px;
+}
+
+.del{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .nav-right{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem; */
+    /* text-align: left; */
+/* } */
+/* .div{
+    display: flex;
+} */

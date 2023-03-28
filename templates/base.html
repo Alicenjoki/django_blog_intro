@@ -5,9 +5,21 @@
     <title>Django blog page</title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <body>
-        <header>
-            <h1><a href="{% url 'home' %}">Django Blog</a></h1>
-        </header>
+        <div class="div">
+            <header>
+                <div class="nav-left">
+                    <h1><a href="{% url 'home' %}">Django Blog</a></h1>
+                    <div class="inner">
+                        <a href="{% url 'post_new' %}">+ New Blog Post</a>
+                    </div>
+                    
+                </div>
+
+                
+            </header>
+        </div>
+        
+
         <div>
             {% block content %}
             {% endblock content %}
