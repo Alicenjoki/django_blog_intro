@@ -59,6 +59,34 @@ h2 a{
     text-align: center;
 }
 
+.login{
+    text-align: center;
+    box-shadow: grey 2px 2px 2px 2px;
+    background-color: antiquewhite;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+
+}
+.auth{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+.signup{
+    text-align: center;
+    box-shadow: grey 2px 2px 2px 2px;
+    background-color: antiquewhite;
+    margin: auto;
+    width: 30%;
+    padding-left: 1px;
+    
+}
+
+
+
 
 
 
